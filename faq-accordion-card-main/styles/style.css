@@ -1,0 +1,90 @@
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: hsl(273, 75%, 66%);
+}
+
+.questions {
+  width: 45%;
+  padding: 300px;
+  background: white;
+  margin-left: 200px;
+  margin-top: 50px;
+}
+.question {
+  display: flex;
+}
+
+.question-one {
+  position: absolute;
+  top: 120px;
+}
+.answer-one {
+  position: absolute;
+  top: 160px;
+}
+
+.question-two {
+  position: absolute;
+  top: 200px;
+}
+.answer-two {
+  position: absolute;
+  top: 240px;
+}
+
+.question-three {
+  position: absolute;
+  top: 280px;
+}
+.answer-three {
+  position: absolute;
+  top: 320px;
+}
+
+.question-four {
+  position: absolute;
+  top: 350px;
+}
+.answer-four {
+  position: absolute;
+  top: 400px;
+}
+
+.question-five {
+  position: absolute;
+  top: 440px;
+}
+.answer-five {
+  position: absolute;
+  top: 490px;
+}
+.arrow {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+img {
+  width: 20px;
+  height: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.head-illustration {
+  width: 360px;
+  height: 360px;
+  position: absolute;
+  left: 100px;
+  top: 160px;
+}
+
+h1 {
+  top: 40px;
+  position: absolute;
+}
+.attribution {
+  margin-top: 20px;
+  margin-left: 40%;
+}
