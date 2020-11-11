@@ -9,7 +9,6 @@ body {
   padding: 200px;
   background: white;
   margin-left: 200px;
-  margin-top: 50px;
 }
 .question {
   display: flex;
@@ -29,7 +28,7 @@ img {
   height: 360px;
   position: absolute;
   left: 30px;
-  top: 400px;
+  top: 300px;
 }
 
 h1 {
@@ -41,8 +40,19 @@ h1 {
   margin-left: 40%;
 }
 .hidden {
-  opacity: 0;
+  display: block;
+  opacity: 1;
+  color: blue;
+  font-size: 20px;
 }
 #clickOne {
   cursor: pointer;
+}
+p {
+  opacity: 0.1;
+}
+
+hr {
+  color: #ddd;
+  line-height: 1.5;
 }
