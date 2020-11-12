@@ -56,3 +56,57 @@ hr {
   color: #ddd;
   line-height: 1.5;
 }
+
+/*media query tablet*/
+@media only screen and (max-width: 1024px) {
+  .head-illustration {
+    width: 180px;
+    height: 150px;
+    left: 308px;
+    top: 30px;
+  }
+
+  .questions {
+    max-width: 100%;
+    padding: 150px;
+    background: white;
+    margin-left: 90px;
+    margin-top: 120px;
+  }
+
+  h1 {
+    top: 180px;
+    left: 330px;
+    position: absolute;
+  }
+}
+
+/*media query mobile*/
+@media only screen and (max-width: 667px) {
+  .head-illustration {
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    left: 100px;
+    top: 110px;
+  }
+
+  .questions {
+    max-width: 100%;
+    padding: 60px;
+    background: white;
+    margin-left: 50px;
+    margin-top: 200px;
+  }
+
+  .question {
+    display: flex;
+    margin-top: 100px;
+  }
+
+  h1 {
+    top: 270px;
+    left: 160px;
+    position: absolute;
+  }
+}
