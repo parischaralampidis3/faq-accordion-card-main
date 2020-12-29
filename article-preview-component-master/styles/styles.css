@@ -1,43 +1,56 @@
 body,
 html {
-  background: lightblue;
-  font-family: "Manrope", sans-serif;
-  max-width: 100%;
-  height: 100%;
+  margin: 0;
+  padding: 0;
 }
-.text-border {
-  background: #ffffff;
-  padding: 20px;
-  max-width: 30%;
-  margin-top: 59px;
-  height: 100%;
+* {
+  box-sizing: border-box;
 }
-.drawers-image {
-  width: 500px;
-  height: 80%;
-  margin-left: 300px;
-  margin-top: 60px;
+#container > * {
+  flex: 1 1 150px;
+  margin: 0px;
 }
-.avatar {
-  border-radius: 50%;
-  width: 50px;
-  height: 50px;
-  margin-top: 20px;
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20vh;
+  padding: 150px;
 }
+
+.info-container {
+  display: flex;
+}
+
 .article-header {
   max-width: 90%;
   color: hsl(217, 19%, 35%);
   font-weight: 700;
-  font-size: 30px;
+  font-size: 3rem;
 }
 .article-para {
-  max-width: 100%;
   color: hsl(214, 17%, 51%);
   font-weight: 500;
+  font-size: 1.3rem;
 }
-.info-container {
-  display: flex;
+
+img {
+  max-width: 100%;
+  display: block;
 }
+.text {
+  background: #ffffff;
+  padding: 15px;
+  margin-top: 59px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-top: 20px;
+}
+
 .info-credentials-container {
   display: flex;
   flex-direction: column;
@@ -52,7 +65,8 @@ html {
   margin-top: 1px;
 }
 
-#grid-container {
-  display: flex;
-  margin-top: 20%;
-}
+/*
+
+
+
+*/
