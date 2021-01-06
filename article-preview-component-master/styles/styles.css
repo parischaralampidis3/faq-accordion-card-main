@@ -83,29 +83,61 @@ img {
   height: 40px;
 }
 
-.hidden-block {
-  cursor: pointer;
-  display: none;
+#banner {
+  display: flex;
   position: absolute;
-  width: 300px;
   opacity: 0.9;
-  border-radius: 20px;
+  top: 60vh;
+  left: 130vh;
+  display: none;
+  width: 400px;
   height: 100px;
-  background: gray;
-  margin: 0 auto;
-  left: 60%;
-  top: 50%;
+  background-color: hsl(214, 17%, 51%);
+  border-radius: 25px;
 }
 
+#banner::before {
+  position: absolute;
+  content: "";
+  width: 0px;
+  height: 30px;
+  top: 100px;
+  left: 150px;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid hsl(214, 17%, 51%);
+}
+#icon-container {
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-left: 50px;
+}
+.pop-icons {
+  width: 30px;
+  height: 30px;
+}
+.icon-share-header {
+  font-size: 30px;
+  font-family: "Manrope", sans-serif;
+  margin-top: 0px;
+  color: white;
+}
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
   .drawers-image {
     width: 400px;
   }
+  #banner {
+    margin-top: 0px;
+    margin-left: 0px;
+  }
 }
 
-@media only screen and (max-width: 660px) {
-  .hidden-block {
-    display: none;
+@media only screen and (max-width: 1024px) {
+  #banner {
+    top: 130vh;
+    left: 20vh;
   }
 }
