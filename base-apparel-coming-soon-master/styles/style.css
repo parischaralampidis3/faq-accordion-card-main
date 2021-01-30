@@ -1,0 +1,32 @@
+html,
+body {
+  background-color: rgb(250, 240, 220);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Josefin Sans", sans-serif;
+}
+.heading {
+  font-size: 3rem;
+  letter-spacing: 10px;
+  width: 200px;
+  line-height: 1.2;
+}
+#container {
+  display: flex;
+}
+
+.para {
+  width: 500px;
+  line-height: 1.5;
+}
+.backgroundImage {
+  width: 630px;
+  float: right;
+  margin-left: 252px;
+  height: auto;
+}
+.paragraphContainer {
+  margin-left: 300px;
+  margin-top: 200px;
+}
